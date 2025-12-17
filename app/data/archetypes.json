@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "674b1a2e8f3d4c001a5e6f01",
+    "id": "devote",
+    "name": "O Devoto",
+    "defect": "Impulsivo - Sempre irá atacar qualquer personagem que esteja com um ponto de saúde.",
+    "flavorText": "Deus não pode fazer o trabalho sozinho.",
+    "backgroundImage": "/images/devote.jpg",
+    "diceRoll": ["1", "3", "🌀", "💀", "2", "🌀"],
+    "brainDamage": {
+      "topLeft": 0,
+      "topRight": 0,
+      "middleLeft": 0,
+      "middleRight": 3,
+      "bottomLeft": 2,
+      "bottomRight": 1
+    },
+    "createdAt": "2025-11-30T10:30:00.000Z",
+    "updatedAt": "2025-12-17T14:20:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "674b1a2e8f3d4c001a5e6f01",
+    "id": "waitress",
+    "name": "A Garçonete",
+    "characteristic": "Atenciosa - Sempre que o a Garçonete finalizar um inimigo poderá atacar outro inimigo, se possível.",
+    "flavorText": "Servir mal para servir nunca mais.",
+    "backgroundImage": "/images/waitress.jpg",
+    "diceRoll": ["1", "2", "1", "2", "🌀", "🌀"],
+    "brainDamage": {
+      "topLeft": 1,
+      "topRight": 0,
+      "middleLeft": 2,
+      "middleRight": 2,
+      "bottomLeft": 0,
+      "bottomRight": 1
+    },
+    "createdAt": "2025-11-30T10:30:00.000Z",
+    "updatedAt": "2025-12-17T14:20:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "674b1a2e8f3d4c001a5e6f01",
+    "id": "gunslinger",
+    "name": "O Pistoleiro",
+    "characteristic": "Atirador - O Pistoleiro pode atacar em comodos adjacentes.",
+    "flavorText": "João sem braço é o caralho",
+    "backgroundImage": "/images/gunslinger.jpg",
+    "diceRoll": ["5", "🌀", "🌀", "💀", "6", "4"],
+    "brainDamage": {
+      "topLeft": 0,
+      "topRight": 2,
+      "middleLeft": 0,
+      "middleRight": 4,
+      "bottomLeft": 0,
+      "bottomRight": 3
+    },
+    "createdAt": "2025-11-30T10:30:00.000Z",
+    "updatedAt": "2025-12-17T14:20:00.000Z",
+    "__v": 0
+  }
+]
