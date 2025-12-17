@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import archetypesData from "@/app/data/archetypes.json";
 import ArchetypeDetailPage from "@/app/components/pages/ArchetypeDetailPage";
-import Archetype from "@/app/archetype.interface";
+import Archetype from "@/app/archetype";
 
 const archetypes = archetypesData as Archetype[];
 

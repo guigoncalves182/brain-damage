@@ -1,6 +1,6 @@
 import archetypesData from "@/app/data/archetypes.json";
 import HomeTemplate from "@/app/components/templates/HomeTemplate";
-import Archetype from "@/app/archetype.interface";
+import Archetype from "@/app/archetype";
 
 const archetypes = archetypesData as Archetype[];
 

@@ -1,6 +1,6 @@
 "use client";
 
-import Archetype from "@/app/archetype.interface";
+import Archetype from "@/app/archetype";
 
 interface ArchetypeSelectProps {
   archetypes: Archetype[];

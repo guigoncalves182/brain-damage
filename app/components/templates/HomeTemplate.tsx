@@ -1,4 +1,4 @@
-import Archetype from "@/app/archetype.interface";
+import Archetype from "@/app/archetype";
 import ArchetypeSelector from "../organisms/ArchetypeSelector";
 
 interface HomeTemplateProps {
