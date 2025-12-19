@@ -160,6 +160,23 @@ export function useBrainDamage(archetype: Archetype) {
     );
   };
 
+  const isOnTheEdge = () => {
+    const positions: BrainDamagePosition[] = [
+      "topLeft",
+      "topRight",
+      "middleLeft",
+      "middleRight",
+      "bottomLeft",
+      "bottomRight",
+    ];
+
+    const maxValues = positions.filter(
+      (position) => brainDamage[position] >= MAX_BRAIN_DAMAGE
+    ).length;
+
+    return maxValues >= 3;
+  };
+
   return {
     brainDamage,
     handleCellClick,
@@ -167,5 +184,6 @@ export function useBrainDamage(archetype: Archetype) {
     selectedCell,
     isRolling,
     canRollDamage: canRollDamage(),
+    isOnTheEdge: isOnTheEdge(),
   };
 }

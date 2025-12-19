@@ -23,7 +23,7 @@
     "_id": "674b1a2e8f3d4c001a5e6f01",
     "id": "waitress",
     "name": "A Garçonete",
-    "characteristic": "Atenciosa - Sempre que o a Garçonete finalizar um inimigo poderá atacar outro inimigo, se possível.",
+    "characteristic": "Atenciosa - Sempre que a Garçonete finalizar um inimigo poderá atacar outro inimigo, se possível.",
     "flavorText": "Servir mal para servir nunca mais.",
     "backgroundImage": "/images/waitress.jpg",
     "diceRoll": ["1", "2", "1", "2", "🌀", "🌀"],

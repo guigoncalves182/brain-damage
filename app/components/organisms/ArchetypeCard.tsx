@@ -27,6 +27,7 @@ export default function ArchetypeCard({
     rollBrainDamage,
     selectedCell,
     canRollDamage,
+    isOnTheEdge,
   } = useBrainDamage(archetype);
   const { diceResult, rollDice, resetDice } = useDiceRoll();
 
@@ -86,6 +87,7 @@ export default function ArchetypeCard({
               onRollDamage={rollBrainDamage}
               selectedCell={selectedCell}
               canRollDamage={canRollDamage}
+              isOnTheEdge={isOnTheEdge}
             />
           </div>
         </div>

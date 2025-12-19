@@ -29,6 +29,7 @@ interface BrainDamageGridProps {
   onRollDamage?: () => void;
   selectedCell?: number | null;
   canRollDamage?: boolean;
+  isOnTheEdge?: boolean;
 }
 
 export default function BrainDamageGrid({
@@ -45,12 +46,17 @@ export default function BrainDamageGrid({
   onRollDamage,
   selectedCell,
   canRollDamage = true,
+  isOnTheEdge = false,
 }: BrainDamageGridProps) {
   return (
     <div className="flex flex-col gap-2">
       <div
         onClick={onContainerClick}
-        className="w-fit cursor-pointer rounded-lg border-2 border-purple-400 bg-white/10 p-1 backdrop-blur-sm transition-all hover:border-purple-300 sm:rounded-xl sm:border-4 sm:p-1.5"
+        className={`w-fit cursor-pointer rounded-lg border-2 bg-white/10 p-1 backdrop-blur-sm transition-all sm:rounded-xl sm:border-4 sm:p-1.5 ${
+          isOnTheEdge
+            ? "border-red-500 shadow-lg shadow-red-500/50 hover:border-red-400"
+            : "border-purple-400 hover:border-purple-300"
+        }`}
       >
         <div className="grid grid-cols-2 gap-1 sm:gap-1.5">
           <GridCell
